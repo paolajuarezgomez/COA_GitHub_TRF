@@ -7,8 +7,8 @@ This example creates an Autonomous Database (JSON) exposed to the public Interne
 
 During this UseCase we're going to:
 
-* Use Github Actions to build a pipeline.
-* Use OCI S3 as a backed for terraform.
+* Use Github Actions to build a pipeline. We have configured 2 different workflows: one for testing (CI) and the other for deploy the resources (CD).
+* Use OCI S3 as backend for the terraform state.
 * Deploy IaC using Terraform, in this case an ADB resource.
 
 ## ✅ Usage
