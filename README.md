@@ -47,13 +47,13 @@ secret_access_key
 * Complete the values of your *region* and *namespace* in the file **remote_backend.tf**
 
 * Create a new branch, and change your code, for example the database name in the file **adb.auto.tfvars**
-* Go to your github repository page and start a "merge pull request" .
+* Go to your github repository page and start a "pull request" .
 ![mergepullrequest](images/pipeline1.png)
 
 * This is the outcome of actions/github-script@v6 , you can review the plan outcome before do the merge.
 ![output](images/OutcomePlan.png)
 
-* Just when merge request is closed the workflow with the apply job is launched. (CD)
+* Just when the "merge request" is closed the workflow with the apply job is launched. (CD)
 ![meergeends](images/meergeends.png)
 
 * If we review the pipelines ( plan and apply) in the tab "actions" 
