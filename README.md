@@ -53,7 +53,7 @@ secret_access_key
 * This is the outcome of actions/github-script@v6 , you can review the plan outcome before do the merge.
 ![output](images/OutcomePlan.png)
 
-* Just when the "merge request" is closed the workflow with the apply job is launched. (CD)
+* Just when the "merge pull request" is closed the workflow with the apply job is launched. (CD)
 ![meergeends](images/meergeends.png)
 
 * If we review the pipelines ( plan and apply) in the tab "actions" 
