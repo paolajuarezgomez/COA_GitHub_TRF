@@ -1,4 +1,4 @@
-# COA Deploy TRF with GitHub UseCase. 
+# COA Deploy TF with GitHub UseCase. 
 # -- How to build a pipeline with GitHub Action  --
 
 This example creates an Autonomous Database (JSON) exposed to the public Internet.
