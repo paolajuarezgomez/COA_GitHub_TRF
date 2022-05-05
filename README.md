@@ -78,7 +78,5 @@ secret_access_key
 
 * Remove manually (using OCI Console) the ADB created previously.
 
-If you need help, ask us in the slack channel #iac-enablement
-
 ## ✅ References
 * [https://acloudguru.com/blog/engineering/how-to-use-github-actions-to-automate-terraform](https://acloudguru.com/blog/engineering/how-to-use-github-actions-to-automate-terraform)
